@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  width: 335px;
+}
+
+.content{
+  display: flex;
+  height: 335px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+.content>img{
+  width: 100px;
+  height: 100px;
+  background: lightyellow;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.msg{
+  display: flex;
+  justify-content: space-between;
+}
+.msg>*{
+  flex: 0 0 30%;
+}
