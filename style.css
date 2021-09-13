@@ -5,6 +5,7 @@ body{
   align-items: center;
   height: 100vh;
   text-align: center;
+  background-color: bisque;
 }
 
 .container{
@@ -12,13 +13,13 @@ body{
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
-  height: 500px;
-  width: 335px;
+  height: 650px;
+  width: 435px;
 }
 
 .content{
   display: flex;
-  height: 335px;
+  height: 435px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
@@ -27,8 +28,8 @@ body{
 }
 
 .content>img{
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background: lightyellow;
   border-radius: 5px;
   cursor: pointer;
